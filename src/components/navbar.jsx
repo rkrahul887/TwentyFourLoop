@@ -3,12 +3,13 @@ import $ from "jquery";
 
 import logo1 from "../img/logo-white.jpg";
 import logo2 from "../img/logo-blue.jpg";
+import logo3 from "../img/logo.png";
 
 class Navbar extends React.Component {
   constructor() {
     super();
     this.state = {
-      logo: logo1,
+      logo: logo3,
     };
   }
 
@@ -39,7 +40,7 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-trans");
-        this.setState({ logo: logo2 });
+        this.setState({ logo: logo3 });
       } else {
         document
           .querySelector(".navbar-expand-md")
@@ -47,7 +48,7 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-reduce");
-        this.setState({ logo: logo1 });
+        this.setState({ logo: logo3 });
       }
     });
 
@@ -111,11 +112,11 @@ class Navbar extends React.Component {
             id="navbarDefault"
           >
             <ul className="navbar-nav">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link js-scroll active" href="#home">
                   Home
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#about">
                   About
@@ -123,26 +124,24 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#work">
-                  Work
+                  Services
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link js-scroll"
-                  href="/"
-                  // href="https://drive.google.com/file/d/1BucNV5WEZxaHh9CTS1aTx38X42u1LmXb/view?usp=sharing"
-                >
-                  Resume
+                  href="#technology">
+                  Technology
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="/">
-                  Testimonials
+                  Insights
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  Blog
+                  careers
                 </a>
               </li>
               <li className="nav-item">

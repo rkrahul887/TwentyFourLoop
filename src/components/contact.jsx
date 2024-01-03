@@ -21,7 +21,7 @@ class Contact extends React.Component {
                       </div>
                       <div>
                         <form
-                          action="https://formspree.io/mgenpgob"
+                          action="https://formspree.io/f/xpzvzldz"
                           method="POST"
                           className="contactForm"
                         >
@@ -141,7 +141,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href="https://www.linkedin.com/in/rahul-mishra-172972152/"
+                              href="https://www.linkedin.com/company/twentyfourloop/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -165,7 +165,7 @@ class Contact extends React.Component {
               <div className="col-sm-12">
                 <div className="copyright-box">
                   <p className="copyright">
-                    2023 &copy; Copyright <strong>Rahul Mishra</strong>. All
+                    2024 &copy; Copyright <strong>Twentyfourloop</strong>. All
                     Rights Reserved
                   </p>
                 </div>
