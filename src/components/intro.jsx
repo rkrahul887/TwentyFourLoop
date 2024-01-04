@@ -1,6 +1,5 @@
 import React from "react";
 import "./stars.scss";
-import Typed from "react-typed";
 import bg_img from "../img/img_background.webp"
 
 class Intro extends React.Component {

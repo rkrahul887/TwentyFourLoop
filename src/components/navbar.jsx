@@ -1,5 +1,8 @@
 import React from "react";
 import $ from "jquery";
+import { useState } from "react";
+// import Dropdown from 'react-multilevel-dropdown';
+import { Dropdown } from "reactstrap";
 
 import logo1 from "../img/logo-white.jpg";
 import logo2 from "../img/logo-blue.jpg";
@@ -79,6 +82,8 @@ class Navbar extends React.Component {
       $(".navbar-collapse").collapse("hide");
     });
   }
+  
+  
 
   render() {
     return (
@@ -119,13 +124,52 @@ class Navbar extends React.Component {
               </li> */}
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#about">
-                  About
+                  About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#work">
+                {/* <a className="nav-link js-scroll" href="#services">
                   Services
-                </a>
+                </a> */}
+                <div class="dropdown">
+                  <a class="nav-link js-scroll dropdown-toggle" data-toggle="dropdown">Services
+                  </a>
+                    <ul class="dropdown-menu">
+                      <li className="dropdown-submenu " tabindex="-1">
+                        <a className="nav-link js-scroll" href="#itservices">IT Services</a>
+                          <ul className="dropdown-menu">
+                            <li><a className="nav-link js-scroll" tabindex="-1" href="#itservices">AI/ML Services</a></li>
+                            <li><a className="nav-link js-scroll" tabindex="-1" href="#itservices">Sales & Sevices</a></li>
+                          </ul>
+                      </li>
+                      <li><a className="nav-link js-scroll" href="#itservices">IT Consulting</a></li>
+                      <li><a className="nav-link js-scroll" href="#itservices">Sales & Sevices</a></li>
+                    </ul>
+                </div>
+                
+                {/* <ul>
+                    <div class="dropdown">
+                      <div class="dropdown-content">
+                        <ul>
+                          <li>
+                            <a className="nav-link js-scroll" href="#itservices">
+                              IT Services
+                            </a>
+                          </li>
+                          <li>
+                            <a className="nav-link js-scroll" href="#itconsulting">
+                                IT Consulting
+                            </a>
+                          </li>
+                          <li>
+                            <a className="nav-link js-scroll" href="#saleandservices">
+                              Sales & Sevices
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </ul> */}
               </li>
               <li className="nav-item">
                 <a
@@ -141,7 +185,7 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  careers
+                  Careers
                 </a>
               </li>
               <li className="nav-item">
