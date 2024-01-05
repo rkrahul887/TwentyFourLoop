@@ -115,7 +115,7 @@ class Services extends React.Component {
                     <ul>
                       <li>
                         <a
-                          href="https://github.com/rkrahulmishra887/Open-Event-Server-Project"
+                          href="#salesandservices"
                           target="_blank"
                           rel="noopener noreferrer"
                         >

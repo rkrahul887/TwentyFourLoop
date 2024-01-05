@@ -620,8 +620,10 @@ INTRO
 
 .intro .intro-title {
   color: #fff;
+  border: #0062d3;
+  border: #0062d3;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 .intro .intro-subtitle {
@@ -642,8 +644,18 @@ INTRO
 }
 
 .intro-single .intro-title {
-  text-transform: uppercase;
-  font-size: 3rem;
+  /* text-transform: uppercase; */
+  font-size: 1.5rem;
+}
+
+#bg-vedio {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .intro-single .breadcrumb {
@@ -960,7 +972,7 @@ BUTTON
   }
 
   .intro-single .intro-title {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
   }
 
   .testimonial-box .description {
