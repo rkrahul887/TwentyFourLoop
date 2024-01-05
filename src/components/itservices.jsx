@@ -1,19 +1,10 @@
 import React from "react";
 
 import bg_img from "../img/services1.avif";
-import myImage from "../img/twentyforloop_about_img.jpeg";
-//it solution
-import it1 from "../img/it_solution_img.avif";
-
-//it consultation
-import consult2 from "../img/consultation3.avif";
 
 //iot
-import iot1 from "../img/iot1.avif";
 import iot2 from "../img/iot2.avif";
 
-//sales
-import sales1 from "../img/sales1.avif";
 
 import EM1 from "../img/EM1.png";
 

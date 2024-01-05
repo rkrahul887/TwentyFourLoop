@@ -1,11 +1,5 @@
 import React from "react";
 import $ from "jquery";
-import { useState } from "react";
-// import Dropdown from 'react-multilevel-dropdown';
-import { Dropdown } from "reactstrap";
-
-import logo1 from "../img/logo-white.jpg";
-import logo2 from "../img/logo-blue.jpg";
 import logo3 from "../img/logo.png";
 
 class Navbar extends React.Component {
@@ -132,7 +126,7 @@ class Navbar extends React.Component {
                   Services
                 </a> */}
                 <div class="dropdown">
-                  <a class="nav-link js-scroll dropdown-toggle" data-toggle="dropdown">Services
+                  <a class="nav-link js-scroll dropdown-toggle" data-toggle="dropdown" href="#service">Services
                   </a>
                     <ul class="dropdown-menu">
                       <li className="dropdown-submenu " tabindex="-1">
