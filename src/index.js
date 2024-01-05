@@ -28,6 +28,8 @@ import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
 import Itservices from './components/itservices';
 import Services from './components/services.jsx';
+import Itconsulting from './components/itconsulting';
+import Salesandservices from './components/salesandservices';
 
 
 
@@ -38,6 +40,8 @@ ReactDOM.render(
         <About />
         <Services />
         <Itservices />
+        <Itconsulting />
+        <Salesandservices />
         <Contact />
         <BackToTop />
         <Preloader />

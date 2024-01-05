@@ -132,12 +132,12 @@ class Navbar extends React.Component {
                       <li className="dropdown-submenu " tabindex="-1">
                         <a className="nav-link js-scroll" href="#itservices">IT Services</a>
                           <ul className="dropdown-menu">
-                            <li><a className="nav-link js-scroll" tabindex="-1" href="#itservices">AI/ML Services</a></li>
-                            <li><a className="nav-link js-scroll" tabindex="-1" href="#itservices">Sales & Sevices</a></li>
+                            <li><a className="nav-link js-scroll" tabindex="-1" href="#aimlservices">AI/ML Services</a></li>
+                            <li><a className="nav-link js-scroll" tabindex="-1" href="#salesandservices">Sales & Sevices</a></li>
                           </ul>
                       </li>
-                      <li><a className="nav-link js-scroll" href="#itservices">IT Consulting</a></li>
-                      <li><a className="nav-link js-scroll" href="#itservices">Sales & Sevices</a></li>
+                      <li><a className="nav-link js-scroll" href="#itconsulting">IT Consulting</a></li>
+                      <li><a className="nav-link js-scroll" href="#salesandservices">Sales & Sevices</a></li>
                     </ul>
                 </div>
                 
